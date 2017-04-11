@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shake_sensitivity_entries">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Very High</item>
+    </string-array>
+    <string-array name="shake_sensitivity_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="output_format_entries">
+        <item>Gilbert 21 compatible</item>
+        <item>Simple OSGR</item>
+        <item>Simple lat/lon</item>
+    </string-array>
+    <string-array name="output_format_values">
+        <item>G21</item>
+        <item>OSGR</item>
+        <item>LatLon</item>
+    </string-array>
+    <string-array name="output_file_type_entries">
+        <item>Uncompressed WAV (.wav)</item>
+        <item>Compressed AMR (.3gp)</item>
+    </string-array>
+    <string-array name="output_file_type_values">
+        <item>wav</item>
+        <item>3gp</item>
+    </string-array>
+</resources>

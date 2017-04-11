@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\fsc\AndroidstudioProjects\G21App\G21App\libs\jcoord-1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d10944084bf19d6e97ad82ba9eebd7a9440cdec9">
+        <dex dex="C:\Users\fsc\AndroidstudioProjects\G21App\G21App\build\intermediates\pre-dexed\debug\jcoord-1.0-dd676922e31186dd54833e12d1d4d512ae8b5348.jar" />
+    </item>
+    <item
+        jar="C:\Users\fsc\AndroidstudioProjects\G21App\G21App\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4a568f733067f786d53e191ccf998e7ea3da68cc">
+        <dex dex="C:\Users\fsc\AndroidstudioProjects\G21App\G21App\build\intermediates\pre-dexed\debug\classes-b4c3919eacc44fa9726d211f021e3263ada68652.jar" />
+    </item>
+    <item
+        jar="C:\Users\fsc\AndroidstudioProjects\G21App\G21App\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4a6be13368bb64c5a0b0460632d228a1a915f58f">
+        <dex dex="C:\Users\fsc\AndroidstudioProjects\G21App\G21App\build\intermediates\pre-dexed\debug\android-support-v4-f71153ce89746f139a42ccd4132733a874be7323.jar" />
+    </item>
+    <item
+        jar="C:\Users\fsc\AndroidstudioProjects\G21App\G21App\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="C:\Users\fsc\AndroidstudioProjects\G21App\G21App\build\intermediates\pre-dexed\debug\classes-cc47756e0b794e140f7dd014122d354259056637.jar" />
+    </item>
+    <item
+        jar="C:\Users\fsc\AndroidstudioProjects\G21App\G21App\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a75b29dc51b364df032af8bcfcad7e54ccfda28d">
+        <dex dex="C:\Users\fsc\AndroidstudioProjects\G21App\G21App\build\intermediates\pre-dexed\debug\classes-7111c1308c0441c5278ccc6bd799d25b78f03d92.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 17
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "uk.org.gilbert21.app"
+        minSdkVersion 9
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+           minifyEnabled false // Means that Proguard won't be used
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/android-support-v4.jar')
+    //compile 'com.google.android.gms:play-services:6.5.87'
+    compile('com.google.android.gms:play-services-location:6.5.87') {
+        exclude module: 'support-v4'
+    }
+    compile files('libs/jcoord-1.0.jar')
+}

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="pref_init_record"
+        android:title="@string/pref_init_record"
+        android:summary="@string/pref_init_record_summary">
+
+        <CheckBoxPreference
+            android:key="pref_rec_on_resume"
+            android:title="@string/rec_on_resume"
+            android:summary="@string/rec_on_resume_summary"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_use_shake"
+            android:title="@string/use_shake"
+            android:summary="@string/use_shake_summary"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="pref_shake_sensitivity"
+            android:title="@string/shake_sensitivity"
+            android:summary="@string/shake_sensitivity_summary"
+            android:entries="@array/shake_sensitivity_entries"
+            android:entryValues="@array/shake_sensitivity_values"
+            android:defaultValue="1" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_cat_file"
+        android:title="@string/pref_cat_file"
+        android:summary="@string/pref_cat_file_summary">
+
+        <ListPreference
+            android:key="pref_output_format"
+            android:title="@string/pref_output_format"
+            android:summary="@string/pref_output_format_summary"
+            android:entries="@array/output_format_entries"
+            android:entryValues="@array/output_format_values"
+            android:defaultValue="G21" />
+
+        <ListPreference
+            android:key="pref_output_file_type"
+            android:title="@string/pref_output_file_type"
+            android:summary="@string/pref_output_file_type_summary"
+            android:entries="@array/output_file_type_entries"
+            android:entryValues="@array/output_file_type_values"
+            android:defaultValue="wav" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="pref_various"
+        android:title="@string/pref_various"
+        android:summary="@string/pref_various_summary">
+
+        <CheckBoxPreference
+            android:key="pref_darken"
+            android:title="@string/pref_darken"
+            android:summary="@string/pref_darken_summary"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_keep_gps_running"
+            android:title="@string/keep_gps_running"
+            android:summary="@string/keeps_gps_running_summary"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_stay_awake"
+            android:title="@string/stay_awake"
+            android:summary="@string/stay_awake_summary"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="pref_replay"
+            android:title="@string/pref_replay"
+            android:summary="@string/pref_replay_summary"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_tracking"
+        android:title="GPS tracking"
+        android:summary="@string/pref_various_summary">
+
+        <CheckBoxPreference
+            android:key="pref_use_tracking"
+            android:title="@string/pref_use_tracking"
+            android:summary="@string/pref_use_tracking_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

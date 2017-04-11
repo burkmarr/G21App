@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gilbert 21 App</string>
+    <string name="action_settings">G21 settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="textStartRecording">Start</string>
+    <string name="textStopRecording">Stop</string>
+
+    <!-- Preferences -->
+    <string name="pref_category_task_defaults_key">task_default_category</string>
+    <string name="pref_category_task_defaults_title">Task Title Default</string>
+    <string name="pref_task_title_key">default_reminder_title</string>
+    <string name="pref_task_title_dialog_title">Default Reminder Title</string>
+    <string name="pref_task_title_message">The default title for a reminder.</string>
+    <string name="pref_task_title_summary">Default title for reminders.</string>
+    <string name="pref_task_title_title">Default Reminder Title</string>
+    <string name="pref_category_datetime_key">date_time_default_category</string>
+    <string name="pref_category_datetime_title">Date Time Defaults</string>
+    <string name="pref_default_time_from_now_key">time_from_now_default</string>
+    <string name="pref_default_time_from_now_dialog_title">Time From Now</string>
+    <string name="pref_default_time_from_now_message">The default time from now that a new reminder should be set to.</string>
+    <string name="pref_default_time_from_now_summary">Sets the default time for a reminder.</string>
+    <string name="pref_default_time_from_now_title">Default Reminder Time</string>
+    <string name="keep_gps_running">Keep GPS running</string>
+    <string name="keeps_gps_running_summary">Keeps GPS running when app closed.</string>
+    <string name="title_activity_records_manger">Gilbert 21 Records Manger</string>
+    <string name="title_activity_record_manager">RecordManagerActivity</string>
+    <string name="action_record_manager">Manage records</string>
+    <string name="browse">Browse</string>
+    <string name="cant_read_external_storage">Can\'t read external storage</string>
+    <string name="cant_write_external_storage">Can\'t write to external storage</string>
+    <string name="wait_for_gps">Wait for GPS</string>
+    <string name="title_activity_safe_main">SafeMain</string>
+    <string name="location_services_unavailable">Location services not available. Cannot start G21 app.</string>
+    <string name="ok">OK</string>
+    <string name="use_shake">Use shake</string>
+    <string name="use_shake_summary">Shake to start and stop recording.</string>
+    <string name="shake_sensitivity">Shake sensitivity</string>
+    <string name="shake_sensitivity_summary">How sensitive you wish the device to be to shaking?</string>
+    <string name="stay_awake">Stay awake</string>
+    <string name="stay_awake_summary">Keep the screen on.</string>
+    <string name="rec_on_resume_summary">Auto-record when app comes to foreground - use phone\'s screen on/off button as a recording button.</string>
+    <string name="rec_on_resume">Record on wake</string>
+    <string name="pref_darken">Darken the app</string>
+    <string name="pref_darken_summary">Turn the app background black.</string>
+    <string name="pref_output_format">File name format</string>
+    <string name="pref_output_format_summary">Use file names compatible with Gilbert 21 desktop or more readable names.</string>
+    <string name="pref_output_file_type">Output file type</string>
+    <string name="pref_output_file_type_summary">Specify output file type. Wav is better quality, but larger files.</string>
+    <string name="pref_cat_file">Output file</string>
+    <string name="pref_cat_file_summary">Preferences for output files.</string>
+    <string name="pref_init_record">Initiate recording</string>
+    <string name="pref_init_record_summary">Specify different methods for initiating recording.</string>
+    <string name="pref_various">Various preferences</string>
+    <string name="pref_various_summary">Various preferences for display and behaviour.</string>
+    <string name="pref_use_tracking">Allow tracking</string>
+    <string name="pref_use_tracking_summary">Show controls to create GPX tracks.</string>
+    <string name="delete_track_dlg_title">Delete track</string>
+    <string name="delete_track_dlg_question">Are you sure you want to delete this track?</string>
+    <string name="delete_track_dlg_yes">Yes - delete</string>
+    <string name="delete_track_dlg_no">No - continue</string>
+    <string name="end_track_dlg_title">End track</string>
+    <string name="end_track_dlg_question">Are you sure you want to end this track?</string>
+    <string name="end_track_dlg_yes">Yes - end</string>
+    <string name="end_track_dlg_no">No - continue</string>
+    <string name="pref_replay">Replay on completion</string>
+    <string name="pref_replay_summary">Replay recordings on completion and save for review.</string>
+    <string name="cant_replay">"Can't replay file: "</string>
+    <string name="manage_recordings">Manage recordings</string>
+    <string name="dlg_title_delete_recording">Delete recording</string>
+    <string name="dlg_question_delete_recording">Are you sure you want to delete this recording?</string>
+    <string name="dlg_delete_recording_yes">Yes - delete</string>
+    <string name="dlg_delete_recording_no">No - continue</string>
+
+</resources>
